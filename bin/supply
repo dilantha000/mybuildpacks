@@ -20,4 +20,4 @@ popd
 
 mkdir -p "${BUILD_DIR}/.profile.d"
 HELLO_WORLD_PATH="${BUILD_DIR}/.profile.d/source_me.sh"
-echo "export PATH_TO_HELLO_WORLD=/var/vcap/deps/${INDEX}/hello_world.txt" > "${HELLO_WORLD_PATH}"
+echo "export PATH_TO_HELLO_WORLD=/deps/${INDEX}/hello_world.txt" > "${HELLO_WORLD_PATH}"
